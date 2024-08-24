@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app-container {
+    display: flex;
+    height: 100vh;
+}
+
+.form-container {
+    flex: 0 0 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.form-container h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container input,
+.form-container button {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-container input {
+    border: 1px solid #357E6A;
+}
+
+.form-container button {
+    background-color: #357E6A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.form-container p {
+    margin-top: 15px;
+}
+
+.form-container a {
+    color: #357E6A;
+    text-decoration: none;
+}
+
+.image-container {
+    flex: 0 0 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/brgy..png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+
+}
+
+.image-container img {
+    width: 250px;
+    margin-bottom: 5px;
+
+}
+
+.image-container h3 {
+    font-size: 45px;
+    margin-bottom: 0;
+
+}
+
+.image-container p {
+    font-size: 25px;
+    margin-top: 0;
+}
